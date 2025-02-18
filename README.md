@@ -8,4 +8,5 @@ a) A hacer las calculaciones, me han salido diferentes los números que en la so
 - 5,028 * 10^11 para Fibra Óptica (502,8 Gbps)
 
 b)
-![TasaTransmision](https://github.com/user-attachments/assets/0c65a177-aafc-4817-b19c-3e39d752a136)
+![Tasa Transmision Grafica](https://github.com/user-attachments/assets/0c65a177-aafc-4817-b19c-3e39d752a136)
+<img src="https://github.com/user-attachments/assets/0c65a177-aafc-4817-b19c-3e39d752a136" alt="Tasa Transmision Grafica" width="300" height="200">
