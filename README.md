@@ -18,6 +18,17 @@ Leonardo Valdés Esparza
 | ---  |  --- |
 | Mandar datos (TCP) | Mandar datos (TCP o UDP) |
 
+### 3. Diferencia entre TCP y UDP
+| TCP | UDP |
+| ---  |  --- |
+| Verificación de entrega de paquetes | Ninguna verificación |
+| Mas lento | Mas rápido |
+| Usos: bajar archivos, correos, etc. | Usos: transmisión de video, videojuegos online, etc. |
+
+### 4. ¿Qué protocolo de la capa de aplicación se utiliza para la transferencia de archivos?
+FTP = File Transfer Protocol
+Alternativas: SFTP = Secure FTP (Transmisión segura), TFTP = Trivial FTP (Versión simple sin autentificación) 
+
 ## Capa Física
 ### 1. Tasa de transmición máxima
 a) A hacer las calculaciones, me han salido diferentes los números que en la solución dada. Convirtiendo 15dB a SNR lineal, me sale ~31.62, y usando la fórmula de Shannon me sale:
