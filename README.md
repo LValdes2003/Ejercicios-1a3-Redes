@@ -29,6 +29,14 @@ Leonardo Valdés Esparza
 FTP = File Transfer Protocol
 Alternativas: SFTP = Secure FTP (Transmisión segura), TFTP = Trivial FTP (Versión simple sin autentificación) 
 
+### 5. Describe el proceso de resolución de nombres en DNS.
+1. El cliente busca la página en el navegador
+2. Se busca el IP que corresponde en el cache DNS de la máquina, si no se encuentra:
+3. El servidor DNS en la red intenta encontrar que IP corresponde con el nombre: si no se encuentra:
+4. Busca en servidores raíz, que dan la dirección de los servidores que saben donde está la página
+5. El navegador va a a la página
+Ejemplo: Quiero ir a google.com. No sé donde está. Pregunto al servidor en mi red. No sabe. Pregunta a un servidor raíz. Nos dirige al servidor que tiene direcciones de páginas .com. El servidor nos dice donde está google. Navegamos a la página.
+
 ## Capa Física
 ### 1. Tasa de transmición máxima
 a) A hacer las calculaciones, me han salido diferentes los números que en la solución dada. Convirtiendo 15dB a SNR lineal, me sale ~31.62, y usando la fórmula de Shannon me sale:
