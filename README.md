@@ -3,20 +3,14 @@ Leonardo Valdés Esparza
 
 # Ejercicios-1a3-Redes
 
-## Introducción a las Redes de Ordenadores
-### 1. Diferencias entre el modelo OSI y el modelo TCP/IP
-| OSI | TCP/IP |
-| ---  |  --- |
-| 7 capas | 4 capas |
-| Centrado en conexiones (TCP) | No centrado en conexiones (TCP o UDP) |
-| Modelo no práctico | Modelo práctico |
-| Ruteo de paquetes en capa Red | Ruteo de paquetes en capa Internet |
-| Se pueden definir protocolos en cada capa | Enfocado en protocolos estandarizados |
+### 1. Para un sistema de comunicaciones con 17 niveles de señal, que funciona en banda base, calcular el máximo ancho de banda si el ruido es despreciable y la tasa de transmisión es de 10 Mbits/s. ¿Qué tipo de medio guiado se podría utilizar para el sistema?
+- Throughput = 2𝐻 𝑙𝑜𝑔2 (𝑉) [bits/s], 𝑉 niveles discretos de la señal, ancho de banda finito H
+- H = Throughput/2log2(V) = 10 x 10^6/2log2(17) = 1.223.252,711 = **1,223 MHz**
+- Se puede usar un **par trenzado de categoría 3**, ya que el ancho de banda es de 16 MHz
 
-### 2. Uso de cada de Transporte
-| OSI | TCP/IP |
-| ---  |  --- |
-| Mandar datos (TCP) | Mandar datos (TCP o UDP) |
+### 2. ¿Cuál es la tasa de transmisión máxima en un canal óptico con fibra de ancho de banda de 1 THz y conversores optoeléctricos de 100 Gbaudios, si la relación SNR es de 15 dB y la modulación utilizada en los conversores es de 4 símbolos en cuadratura?
+- 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 = 𝐻 𝑙𝑜𝑔2 (1 + 𝑆𝑁𝑅) [bits/s] = 10^12 log2 (1 + 10^(15/10)) = 5.02780767 x 10^12 = **5.03 Tbps**
+- Tasa de transmisión en función de modulación = 100 Gbaudios x num de bits por símbolo = 100 x 10^9 x 2 = 200 x 10^9 = **200 Gbps**
 
 ### 3. Diferencia entre TCP y UDP
 | TCP | UDP |
