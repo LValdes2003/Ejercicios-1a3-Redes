@@ -30,8 +30,13 @@ b) Recuperar la información de ambas señales.
 - FSK = 011001011010100110 y PSK = 110011110000001100
 
 ### 6. Indicar las longitudes de onda que se transmiten en cada uno de los puntos marcados en el esquema.
+![Figura 1](/Diagramas/Figura1.png)
+- a) l1 + ruido
+- b) l2 + ruido
+- c) l1
+- d) l2
+- e) l3 
+- f) l4
+- g) l3 + ruido
+- h) l4 + ruido
 
-
-b)  
-<img src="https://github.com/user-attachments/assets/0c65a177-aafc-4817-b19c-3e39d752a136" alt="Tasa Transmision Grafica" width="400" height="250">  
-A incrementar el SNR (10 a 15 dB) Se aumenta la tasa de transmisión máxima. La fibra óptica es la mejor opción, ya que el ancho de banda es mayor.
