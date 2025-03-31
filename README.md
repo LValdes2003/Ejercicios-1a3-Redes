@@ -42,7 +42,7 @@ b) Recuperar la información de ambas señales.
 
 ### 7. Se considera una pila de protocolos de 4 capas. La capa 4 envía un bloque de 1 Kbyte. La capa 3 añade cabeceras de 256 bits y cada paquete es de 512 bytes. La capa 2 añade cabeceras de 512 bits y el campo de datos de las tramas son de 128 bytes. La capa 1 añade a cada 30 bytes de datos, 32 bits de comienzo, un byte de parada, y 16 bits de CRC. Dibujar todo el proceso de encapsulamiento del sistema transmisor y calcular la eficiencia del sistema.
 ![Figura 2](/Diagramas/Figura2.png)
-- Eficiencia = Datos útiles/Datos transmitidos = 1024/1386 = 0,74
+- Eficiencia = Datos útiles / Datos transmitidos = 1024/1386 = 0,74
 
 ### 8. Un sistema satélite divide la información de la capa 3 en bloques de 1904 bits, a los que añade una cabecera de 64 bits. Si cada trama tarda en transmitirse 20 ms y la latencia del satélite es de 85 ms, ¿cuánto tiempo tardará en realizar la transmisión de 5 Mbytes de información?
 - 426.345 ms
@@ -66,3 +66,16 @@ b) Recuperar la información de ambas señales.
 - TCP
 
 ### 14. ¿Se puede aplicar el protocolo del ejercicio anterior en el siguiente escenario?
+- No
+
+### 15. Dibujar un diagrama de ventana deslizante con un receptor con buffer para tres tramas y un transmisor que dispone de 5 tramas desordenadas que llegan en el orden 0, 3, 2, 4, 1.
+
+### 16. Un canal coaxial con FDM con una tasa de transmisión de 500 Mbits/s con una longitud media de trama de 1/𝜇 = 12584 bits y una tasa de llegada de trama 𝜆 = 20000 trama/s:
+1. ¿Qué retardo tendrá?
+2. Si lo comparten entre 256 usuarios ¿cuántas portadoras serán necesarias?
+3. ¿Cuánto tiempo tardará un nodo en detectar una colisión?
+- 1\. Retardo de Transmisión = Longitud de trama / Tasa transmisión = 2.5168 x 10^-5 = **25,2 µs**
+- 2\. 256 portadas
+- 3\. Tiempo de propagación = Longitud de canal / Velocidad de propagación (Diré que 0,7 x velocidad de luz) = No se sabe / 0,7 x c
+
+### 
