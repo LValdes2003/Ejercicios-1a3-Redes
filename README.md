@@ -58,3 +58,11 @@ b) Recuperar la información de ambas señales.
 ### 11. ¿Cuántos errores pueden llegar a corregir la codificación H(15,11) y el CRC-32?
 - H(15,11) puede corregir un error en un bloque de 11 bits
 - CRC-32 no puede corregir errores, pero los puede detectar
+
+### 12. Se recibe la trama “1111111101011010101011” y se conoce que el protocolo está constituido por una cabecera “11111111” y que los datos están codificados con H(14,10), ¿cuáles son los datos útiles que se han transmitido?
+- 0101101011
+
+### 13. ¿A qué protocolo de la capa de enlace de datos corresponde el siguiente esquema temporal?
+- TCP
+
+### 14. ¿Se puede aplicar el protocolo del ejercicio anterior en el siguiente escenario?
