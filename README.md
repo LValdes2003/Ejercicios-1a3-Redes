@@ -41,3 +41,20 @@ b) Recuperar la información de ambas señales.
 - h) l4 + ruido
 
 ### 7. Se considera una pila de protocolos de 4 capas. La capa 4 envía un bloque de 1 Kbyte. La capa 3 añade cabeceras de 256 bits y cada paquete es de 512 bytes. La capa 2 añade cabeceras de 512 bits y el campo de datos de las tramas son de 128 bytes. La capa 1 añade a cada 30 bytes de datos, 32 bits de comienzo, un byte de parada, y 16 bits de CRC. Dibujar todo el proceso de encapsulamiento del sistema transmisor y calcular la eficiencia del sistema.
+![Figura 2](/Diagramas/Figura2.png)
+- Eficiencia = Datos útiles/Datos transmitidos = 1024/1386 = 0,74
+
+### 8. Un sistema satélite divide la información de la capa 3 en bloques de 1904 bits, a los que añade una cabecera de 64 bits. Si cada trama tarda en transmitirse 20 ms y la latencia del satélite es de 85 ms, ¿cuánto tiempo tardará en realizar la transmisión de 5 Mbytes de información?
+- 426.345 ms
+
+### 9. Calcular el resultado de un paquete de datos “1111011101010101” en un sistema de enlace de datos con las siguientes especificaciones:
+1. Secuencia de inicio de trama “010101010”.
+2. Protección frente a errores H(7,4).
+3. Tamaño máximo por trama de 4 bytes.
+- 1111 0111 0101 0101 + H74 = 1111111 0001111 0100101 0100101 Dividir dos tramas + 010101010 = 0101 0101 0111 1111 0001 1110 1001 01(00) y 0101 0101 0010 0101 (0000 0000 0000 0000)
+
+### 10. Un fabricante indica que su sistema integra un CRC-8 con el siguiente polinomiogenerador: 𝐺(𝑥) = 𝑥8 + 𝑥7 + 𝑥2 + 1. Plantear los pasos que se deben realizar para calcular la trama resultante, considerando que el CRC se aplica al final de la trama 2 del ejercicio anterior
+
+### 11. ¿Cuántos errores pueden llegar a corregir la codificación H(15,11) y el CRC-32?
+- H(15,11) puede corregir un error en un bloque de 11 bits
+- CRC-32 no puede corregir errores, pero los puede detectar
