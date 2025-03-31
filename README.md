@@ -23,21 +23,14 @@ b) ¿Qué velocidad máxima se tendrá en la salida?
 - b) Puntos crecen en tamaño por ruido. Ruidos mas bajos pueden causar errores con símbolos de bits mayores.
 - c) Puntos cambian de distancia al centro y posición en rotación por distorsión de amplitud y distorsión de fase.
 
-### 5. Describe el proceso de resolución de nombres en DNS.
-1. El cliente busca la página en el navegador
-2. Se busca el IP que corresponde en el cache DNS de la máquina, si no se encuentra:
-3. El servidor DNS en la red intenta encontrar que IP corresponde con el nombre: si no se encuentra:
-4. Busca en servidores raíz, que dan la dirección de los servidores que saben donde está la página
-5. El navegador va a a la página
-   
-Ejemplo: Quiero ir a google.com. No sé donde está. Pregunto al servidor en mi red. No sabe. Pregunta a un servidor raíz. Nos dirige al servidor que tiene direcciones de páginas .com. El servidor nos dice donde está google. Navegamos a la página.
+### 5. Sabiendo que se transmiten dos señales de forma simultánea y que se aplican dos modulaciones diferentes:
+a) Indicar qué dos modulaciones se están aplicando.
+b) Recuperar la información de ambas señales.
+- FSK (Modulación por desplazamiento de frecuencia) y PSK (Modulación por desplazamiento de fase)
+- FSK = 011001011010100110 y PSK = 110011110000001100
 
-## Capa Física
-### 1. Tasa de transmición máxima
-a) A hacer las calculaciones, me han salido diferentes los números que en la solución dada. Convirtiendo 15dB a SNR lineal, me sale ~31.62, y usando la fórmula de Shannon me sale:
-- 5,028 * 10^9 para Coaxial (5,028 Gbps)
-- 3,017 * 10^9 para Par Trenzado (3,017 Gbps) 
-- 5,028 * 10^11 para Fibra Óptica (502,8 Gbps)
+### 6. Indicar las longitudes de onda que se transmiten en cada uno de los puntos marcados en el esquema.
+
 
 b)  
 <img src="https://github.com/user-attachments/assets/0c65a177-aafc-4817-b19c-3e39d752a136" alt="Tasa Transmision Grafica" width="400" height="250">  
