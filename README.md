@@ -78,4 +78,4 @@ b) Recuperar la información de ambas señales.
 - 2\. 256 portadas
 - 3\. Tiempo de propagación = Longitud de canal / Velocidad de propagación (Diré que 0,7 x velocidad de luz) = No se sabe / 0,7 x c
 
-### 
+### 17. Representar la trama “1111111101011010101011” con codificación Manchester y Manchester diferencial. Indicar las unidades y magnitudes en los ejes.
