@@ -79,3 +79,10 @@ b) Recuperar la información de ambas señales.
 - 3\. Tiempo de propagación = Longitud de canal / Velocidad de propagación (Diré que 0,7 x velocidad de luz) = No se sabe / 0,7 x c
 
 ### 17. Representar la trama “1111111101011010101011” con codificación Manchester y Manchester diferencial. Indicar las unidades y magnitudes en los ejes.
+![Figura 3](/Diagramas/Figura3.png)
+
+### 18. Diseñar una red Bluetooth que pueda mantener 15 nodos esclavos activos de manera simultánea.
+
+### 19. Cuál será el rutado entre los siguientes switches si utilizan para su conexión un árbol de expansión con raíz B5.
+
+### 20. Conociendo el rutado del ejercicio anterior, realizar de nuevo el árbol de expansión que se produciría si el switch B3 dejara de estar activo.
