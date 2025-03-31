@@ -12,16 +12,16 @@ Leonardo Valdés Esparza
 - 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 = 𝐻 𝑙𝑜𝑔2 (1 + 𝑆𝑁𝑅) [bits/s] = 10^12 log2 (1 + 10^(15/10)) = 5.02780767 x 10^12 = **5.03 Tbps**
 - Tasa de transmisión en función de modulación = 100 Gbaudios x num de bits por símbolo = 100 x 10^9 x 2 = 200 x 10^9 = **200 Gbps**
 
-### 3. Diferencia entre TCP y UDP
-| TCP | UDP |
-| ---  |  --- |
-| Verificación de entrega de paquetes | Ninguna verificación |
-| Mas lento | Mas rápido |
-| Usos: bajar archivos, correos, etc. | Usos: transmisión de video, videojuegos online, etc. |
+### 3. Si en el sistema anterior se introduce un conector de fibra con un 20% de pérdidas, responder a las siguientes cuestiones:  
+a) ¿Se verá afectada la tasa de transmisión máxima?  
+b) ¿Qué velocidad máxima se tendrá en la salida?
+- a) Como reduce la potencia del señal, la SNR es afectada, y **sí afecta la tasa de transmisión.**
+- b) SNR nuevo = SNR viejo x 0,8 , Tasa Transmisión nueva = 10^12 log2 (1 + 10^(15/10) x 0,8) = **4,72 Tbps**
 
-### 4. ¿Qué protocolo de la capa de aplicación se utiliza para la transferencia de archivos?
-FTP = File Transfer Protocol
-Alternativas: SFTP = Secure FTP (Transmisión segura), TFTP = Trivial FTP (Versión simple sin autentificación) 
+### 4. Indicar el tipo de modulación que se está utilizando y los problemas que plantea en los casos b y c.
+- **16-QAM**
+- b) Puntos crecen en tamaño por ruido. Ruidos mas bajos pueden causar errores con símbolos de bits mayores.
+- c) Puntos cambian de distancia al centro y posición en rotación por distorsión de amplitud y distorsión de fase.
 
 ### 5. Describe el proceso de resolución de nombres en DNS.
 1. El cliente busca la página en el navegador
